@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(212, 77, 15); 
+   
+}
+.theBlog{
+    border-radius: 15px;
+    background-color: white;
+width: 70%;
+}
+.theBlog2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}

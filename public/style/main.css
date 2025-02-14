@@ -1,0 +1,146 @@
+
+body{
+    margin: 0;
+padding: 0;
+}
+.the-headar{
+    height: 750px;
+    background-color: rgb(221, 89, 27); 
+    margin-bottom: 200px;
+}
+.makeflex{
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonToCreate{
+    background-color: rgb(221, 89, 27); 
+
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border: 3px solid #ffffff;
+}
+.Create-a-blog{
+    font-size: 120px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.moveMouseOverButton{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #000;
+    /* font-weight: bolder; */
+}
+.praagraf{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.footer{
+
+    background-color: rgb(221, 89, 27); 
+    margin-top: 200px;
+    text-align: center;
+    padding: 100px;
+ 
+    color: white;
+   
+  
+
+
+}
+.theBlogInHomePage{
+ width: 70%;
+ height: 200px;
+ margin-left: 15%;
+ margin-right: 15%;
+ border: rgb(221, 89, 27) solid;
+ border-radius: 10px;
+
+}
+.photoBlog{
+    width: 30%;
+   margin-right: 20px;
+    float: left;
+}
+
+.theBlogButton{
+ 
+margin-left: 17%;
+/* margin-right: 25%; */
+margin-top: 20px;
+
+} 
+.towImage{
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+}
+.theTowPuctirInHeader{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.clickUnderTheText{
+padding: 8px;
+width: 150px;
+font-size: 20px;
+border-radius: 10px;
+background-color: white;
+border-color: rgb(221, 89, 27);
+}
+.moveMouseOverButton2{
+    background-color: rgb(221, 89, 27);
+    color: white;
+    border-color: white;
+}
+
+
+
+@media screen and ( max-width : 985px){
+    .theBlogInHomePage{
+        height: 250px;
+
+    }
+}
+@media screen and ( max-width : 736px){
+    .theBlogInHomePage{
+        height: 300px;
+
+    }
+    .towImage{
+        height: 200px;
+        width: 400px;
+        border-radius: 15px;
+    }
+    .Create-a-blog{
+        font-size: 100px;
+    }
+    .praagraf{
+        font-size: 20px;
+    }
+}
+@media screen and ( max-width : 604px){
+    .theBlogInHomePage{
+        height: 350px;
+
+    }
+}
+@media screen and ( max-width : 490px){
+    .theBlogInHomePage{
+        height: 420px;
+
+    }
+}

@@ -1,0 +1,26 @@
+<%- include("partials/header.ejs") %>
+<% if(locals.word2 &&locals.word1) {%>
+<div class="theBlogInHomePage">
+    <!-- <div class="photoBlog">
+<img style="width: 100%;" src="img/images.png" alt="">
+</div> -->
+<div >
+<% let shortText = word2.substring(0, 800); %>  
+    <h2 style="text-align: center;"><%= word1 %></h2>
+    <p style="margin: 20px;"><%= shortText %> ....</p></div></div>
+    <div class="theBlogButton">
+    <form action="/the"  method="get">
+    <button class="clickUnderTheText">click in her</button></form></div>
+
+
+
+
+<% } %>
+
+
+
+
+
+
+
+<%- include("partials/footer.ejs") %>
